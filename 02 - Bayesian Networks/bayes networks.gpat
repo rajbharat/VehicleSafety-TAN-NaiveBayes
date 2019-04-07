@@ -1,0 +1,469 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<pattern version="1.0">
+	<variable id="OA_MAIS" position="302 203 374 251" discrete="true">
+		<state id="s1_below_0" />
+		<state id="s2_0_1" />
+		<state id="s3_1_2" />
+		<state id="s4_2_3" />
+		<state id="s5_3_4" />
+		<state id="s6_4_5" />
+		<state id="s7_5_up" />
+	</variable>
+	<variable id="x__GV_CURBWGT" position="572 202 644 250" discrete="true">
+		<state id="s01_below_770" />
+		<state id="s02_770_885" />
+		<state id="s03_885_975" />
+		<state id="s04_975_1035" />
+		<state id="s05_1035_1075" />
+		<state id="s06_1075_1135" />
+		<state id="s07_1135_1175" />
+		<state id="s08_1175_1255" />
+		<state id="s09_1255_1295" />
+		<state id="s10_1295_1355" />
+		<state id="s11_1355_1435" />
+		<state id="s12_1435_1475" />
+		<state id="s13_1475_1555" />
+		<state id="s14_1555_1635" />
+		<state id="s15_1635_1695" />
+		<state id="s16_1695_1775" />
+		<state id="s17_1775_1855" />
+		<state id="s18_1855_1935" />
+		<state id="s19_1935_1995" />
+		<state id="s20_1995_2075" />
+		<state id="s21_2075_2155" />
+		<state id="s22_2155_2215" />
+		<state id="s23_2215_2255" />
+		<state id="s24_2255_2315" />
+		<state id="s25_2315_2395" />
+		<state id="s26_2395_2455" />
+		<state id="s27_2455_2515" />
+		<state id="s28_2515_2595" />
+		<state id="s29_2595_2675" />
+		<state id="s30_2675_2755" />
+		<state id="s31_2755_2815" />
+		<state id="s32_2815_2875" />
+		<state id="s33_2875_2980" />
+		<state id="s34_2980_3070" />
+		<state id="s35_3070_3160" />
+		<state id="s36_3160_3200" />
+		<state id="s37_3200_3285" />
+		<state id="s38_3285_3335" />
+		<state id="s39_3335_3445" />
+		<state id="s40_3445_3760" />
+		<state id="s41_3760_4080" />
+		<state id="s42_4080_4210" />
+		<state id="s43_4210_4280" />
+		<state id="s44_4280_up" />
+	</variable>
+	<variable id="GV_DVLAT" position="558 257 630 305" discrete="true">
+		<state id="s01_below_n89" />
+		<state id="s02_n89_n85" />
+		<state id="s03_n85_n76" />
+		<state id="s04_n76_n70" />
+		<state id="s05_n70_n61" />
+		<state id="s06_n61_n53" />
+		<state id="s07_n53_n46" />
+		<state id="s08_n46_n40" />
+		<state id="s09_n40_n36" />
+		<state id="s10_n36_n30" />
+		<state id="s11_n30_n24" />
+		<state id="s12_n24_n18" />
+		<state id="s13_n18_n14" />
+		<state id="s14_n14_n6" />
+		<state id="s15_n6_0" />
+		<state id="s16_0_5" />
+		<state id="s17_5_13" />
+		<state id="s18_13_17" />
+		<state id="s19_17_25" />
+		<state id="s20_25_29" />
+		<state id="s21_29_37" />
+		<state id="s22_37_43" />
+		<state id="s23_43_47" />
+		<state id="s24_47_51" />
+		<state id="s25_51_57" />
+		<state id="s26_57_63" />
+		<state id="s27_63_71" />
+		<state id="s28_71_76" />
+		<state id="s29_76_99" />
+		<state id="s30_99_up" />
+	</variable>
+	<variable id="GV_DVLONG" position="520 307 592 355" discrete="true">
+		<state id="s01_below_n139" />
+		<state id="s02_n139_n125" />
+		<state id="s03_n125_n112" />
+		<state id="s04_n112_n99" />
+		<state id="s05_n99_n91" />
+		<state id="s06_n91_n81" />
+		<state id="s07_n81_n72" />
+		<state id="s08_n72_n64" />
+		<state id="s09_n64_n54" />
+		<state id="s10_n54_n48" />
+		<state id="s11_n48_n44" />
+		<state id="s12_n44_n34" />
+		<state id="s13_n34_n26" />
+		<state id="s14_n26_n18" />
+		<state id="s15_n18_n14" />
+		<state id="s16_n14_n6" />
+		<state id="s17_n6_0" />
+		<state id="s18_0_5" />
+		<state id="s19_5_11" />
+		<state id="s20_11_15" />
+		<state id="s21_15_21" />
+		<state id="s22_21_25" />
+		<state id="s23_25_33" />
+		<state id="s24_33_41" />
+		<state id="s25_41_47" />
+		<state id="s26_47_54" />
+		<state id="s27_54_63" />
+		<state id="s28_63_71" />
+		<state id="s29_71_81" />
+		<state id="s30_81_up" />
+	</variable>
+	<variable id="GV_ENERGY" position="461 346 533 394" discrete="true">
+		<state id="s01_below_237" />
+		<state id="s02_237_381" />
+		<state id="s03_381_623" />
+		<state id="s04_623_810" />
+		<state id="s05_810_1081" />
+		<state id="s06_1081_1302" />
+		<state id="s07_1302_1553" />
+		<state id="s08_1553_1745" />
+		<state id="s09_1745_1958" />
+		<state id="s10_1958_2129" />
+		<state id="s11_2129_2281" />
+		<state id="s12_2281_2470" />
+		<state id="s13_2470_2582" />
+		<state id="s14_2582_2717" />
+		<state id="s15_2717_2947" />
+		<state id="s16_2947_3097" />
+		<state id="s17_3097_3274" />
+		<state id="s18_3274_3466" />
+		<state id="s19_3466_3614" />
+		<state id="s20_3614_3770" />
+		<state id="s21_3770_3988" />
+		<state id="s22_3988_4098" />
+		<state id="s23_4098_4282" />
+		<state id="s24_4282_4542" />
+		<state id="s25_4542_4674" />
+		<state id="s26_4674_4841" />
+		<state id="s27_4841_5002" />
+		<state id="s28_5002_5175" />
+		<state id="s29_5175_5376" />
+		<state id="s30_5376_5612" />
+		<state id="s31_5612_5811" />
+		<state id="s32_5811_6056" />
+		<state id="s33_6056_6346" />
+		<state id="s34_6346_6575" />
+		<state id="s35_6575_6970" />
+		<state id="s36_6970_7302" />
+		<state id="s37_7302_7613" />
+		<state id="s38_7613_8231" />
+		<state id="s39_8231_9249" />
+		<state id="s40_9249_up" />
+	</variable>
+	<variable id="GV_LANES" position="386 371 458 419" discrete="true">
+		<state id="s1_below_1" />
+		<state id="s2_1_2" />
+		<state id="s3_2_3" />
+		<state id="s4_3_4" />
+		<state id="s5_4_5" />
+		<state id="s6_5_6" />
+		<state id="s7_6_up" />
+	</variable>
+	<variable id="GV_MODELYR" position="304 380 376 428" discrete="true">
+		<state id="s01_below_2001" />
+		<state id="s02_2001_2002" />
+		<state id="s03_2002_2003" />
+		<state id="s04_2003_2004" />
+		<state id="s05_2004_2005" />
+		<state id="s06_2005_2006" />
+		<state id="s07_2006_2007" />
+		<state id="s08_2007_2008" />
+		<state id="s09_2008_2009" />
+		<state id="s10_2009_2010" />
+		<state id="s11_2010_2011" />
+		<state id="s12_2011_up" />
+	</variable>
+	<variable id="GV_OTVEHWGT" position="222 371 294 419" discrete="true">
+		<state id="s01_below_760" />
+		<state id="s02_760_855" />
+		<state id="s03_855_975" />
+		<state id="s04_975_1135" />
+		<state id="s05_1135_1295" />
+		<state id="s06_1295_1395" />
+		<state id="s07_1395_1535" />
+		<state id="s08_1535_1645" />
+		<state id="s09_1645_1805" />
+		<state id="s10_1805_1925" />
+		<state id="s11_1925_2065" />
+		<state id="s12_2065_2205" />
+		<state id="s13_2205_2305" />
+		<state id="s14_2305_2385" />
+		<state id="s15_2385_2545" />
+		<state id="s16_2545_2665" />
+		<state id="s17_2665_2745" />
+		<state id="s18_2745_2880" />
+		<state id="s19_2880_2970" />
+		<state id="s20_2970_3055" />
+		<state id="s21_3055_3160" />
+		<state id="s22_3160_3350" />
+		<state id="s23_3350_3515" />
+		<state id="s24_3515_3730" />
+		<state id="s25_3730_3935" />
+		<state id="s26_3935_4035" />
+		<state id="s27_4035_4125" />
+		<state id="s28_4125_4285" />
+		<state id="s29_4285_4470" />
+		<state id="s30_4470_up" />
+	</variable>
+	<variable id="GV_SPLIMIT" position="147 346 219 394" discrete="true">
+		<state id="s01_below_7" />
+		<state id="s02_7_12" />
+		<state id="s03_12_17" />
+		<state id="s04_17_22" />
+		<state id="s05_22_27" />
+		<state id="s06_27_32" />
+		<state id="s07_32_37" />
+		<state id="s08_37_42" />
+		<state id="s09_42_47" />
+		<state id="s10_47_52" />
+		<state id="s11_52_57" />
+		<state id="s12_57_62" />
+		<state id="s13_62_67" />
+		<state id="s14_67_72" />
+		<state id="s15_72_up" />
+	</variable>
+	<variable id="GV_WGTCDTR" position="88 307 160 355" discrete="true">
+		<state id="SPassenger_Car" />
+		<state id="STruck____10000_lbs__" />
+		<state id="STruck____6000_lbs__" />
+	</variable>
+	<variable id="OA_AGE" position="50 257 122 305" discrete="true">
+		<state id="s01_below_11" />
+		<state id="s02_11_22" />
+		<state id="s03_22_32" />
+		<state id="s04_32_42" />
+		<state id="s05_42_48" />
+		<state id="s06_48_56" />
+		<state id="s07_56_64" />
+		<state id="s08_64_72" />
+		<state id="s09_72_80" />
+		<state id="s10_80_88" />
+		<state id="s11_88_95" />
+		<state id="s12_95_up" />
+	</variable>
+	<variable id="OA_BAGDEPLY" position="36 202 108 250" discrete="true">
+		<state id="Deployed" />
+		<state id="SNot_Deployed" />
+	</variable>
+	<variable id="OA_HEIGHT" position="50 147 122 195" discrete="true">
+		<state id="s01_below_68" />
+		<state id="s02_68_96" />
+		<state id="s03_96_120" />
+		<state id="s04_120_126" />
+		<state id="s05_126_133" />
+		<state id="s06_133_138" />
+		<state id="s07_138_143" />
+		<state id="s08_143_148" />
+		<state id="s09_148_151" />
+		<state id="s10_151_154" />
+		<state id="s11_154_156" />
+		<state id="s12_156_158" />
+		<state id="s13_158_160" />
+		<state id="s14_160_164" />
+		<state id="s15_164_166" />
+		<state id="s16_166_169" />
+		<state id="s17_169_171" />
+		<state id="s18_171_175" />
+		<state id="s19_175_179" />
+		<state id="s20_179_181" />
+		<state id="s21_181_184" />
+		<state id="s22_184_186" />
+		<state id="s23_186_189" />
+		<state id="s24_189_192" />
+		<state id="s25_192_194" />
+		<state id="s26_194_199" />
+		<state id="s27_199_204" />
+		<state id="s28_204_208" />
+		<state id="s29_208_213" />
+		<state id="s30_213_up" />
+	</variable>
+	<variable id="OA_MANUSE" position="88 97 160 145" discrete="true">
+		<state id="s1_below_0" />
+		<state id="s2_0_up" />
+	</variable>
+	<variable id="OA_SEX" position="147 58 219 106" discrete="true">
+		<state id="Female" />
+		<state id="Male" />
+	</variable>
+	<variable id="OA_WEIGHT" position="222 33 294 81" discrete="true">
+		<state id="s01_below_33" />
+		<state id="s02_33_37" />
+		<state id="s03_37_42" />
+		<state id="s04_42_46" />
+		<state id="s05_46_54" />
+		<state id="s06_54_62" />
+		<state id="s07_62_70" />
+		<state id="s08_70_76" />
+		<state id="s09_76_80" />
+		<state id="s10_80_88" />
+		<state id="s11_88_96" />
+		<state id="s12_96_102" />
+		<state id="s13_102_106" />
+		<state id="s14_106_114" />
+		<state id="s15_114_123" />
+		<state id="s16_123_129" />
+		<state id="s17_129_137" />
+		<state id="s18_137_144" />
+		<state id="s19_144_149" />
+		<state id="s20_149_up" />
+	</variable>
+	<variable id="VE_GAD1" position="304 24 376 72" discrete="true">
+		<state id="Front" />
+		<state id="Left" />
+		<state id="Rear" />
+		<state id="Right" />
+	</variable>
+	<variable id="VE_ORIGAVTW" position="386 33 458 81" discrete="true">
+		<state id="s01_below_129" />
+		<state id="s02_129_131" />
+		<state id="s03_131_136" />
+		<state id="s04_136_140" />
+		<state id="s05_140_144" />
+		<state id="s06_144_146" />
+		<state id="s07_146_148" />
+		<state id="s08_148_150" />
+		<state id="s09_150_152" />
+		<state id="s10_152_154" />
+		<state id="s11_154_156" />
+		<state id="s12_156_158" />
+		<state id="s13_158_160" />
+		<state id="s14_160_164" />
+		<state id="s15_164_168" />
+		<state id="s16_168_172" />
+		<state id="s17_172_176" />
+		<state id="s18_176_178" />
+		<state id="s19_178_181" />
+		<state id="s20_181_184" />
+		<state id="s21_184_up" />
+	</variable>
+	<variable id="VE_WHEELBAS" position="461 58 533 106" discrete="true">
+		<state id="s01_below_203" />
+		<state id="s02_203_223" />
+		<state id="s03_223_229" />
+		<state id="s04_229_233" />
+		<state id="s05_233_238" />
+		<state id="s06_238_242" />
+		<state id="s07_242_248" />
+		<state id="s08_248_254" />
+		<state id="s09_254_258" />
+		<state id="s10_258_266" />
+		<state id="s11_266_274" />
+		<state id="s12_274_278" />
+		<state id="s13_278_282" />
+		<state id="s14_282_288" />
+		<state id="s15_288_292" />
+		<state id="s16_292_296" />
+		<state id="s17_296_304" />
+		<state id="s18_304_308" />
+		<state id="s19_308_314" />
+		<state id="s20_314_317" />
+		<state id="s21_317_321" />
+		<state id="s22_321_327" />
+		<state id="s23_327_335" />
+		<state id="s24_335_340" />
+		<state id="s25_340_345" />
+		<state id="s26_345_349" />
+		<state id="s27_349_353" />
+		<state id="s28_353_362" />
+		<state id="s29_362_376" />
+		<state id="s30_376_385" />
+		<state id="s31_385_392" />
+		<state id="s32_392_398" />
+		<state id="s33_398_402" />
+		<state id="s34_402_406" />
+		<state id="s35_406_411" />
+		<state id="s36_411_419" />
+		<state id="s37_419_426" />
+		<state id="s38_426_430" />
+		<state id="s39_430_435" />
+		<state id="s40_435_up" />
+	</variable>
+	<variable id="VE_PDOF_TR" position="520 97 592 145" discrete="true">
+		<state id="s01_below_20" />
+		<state id="s02_20_40" />
+		<state id="s03_40_60" />
+		<state id="s04_60_80" />
+		<state id="s05_80_100" />
+		<state id="s06_100_120" />
+		<state id="s07_120_140" />
+		<state id="s08_140_160" />
+		<state id="s09_160_180" />
+		<state id="s10_180_200" />
+		<state id="s11_200_220" />
+		<state id="s12_220_240" />
+		<state id="s13_240_260" />
+		<state id="s14_260_280" />
+		<state id="s15_280_300" />
+		<state id="s16_300_320" />
+		<state id="s17_320_330" />
+		<state id="s18_330_340" />
+		<state id="s19_340_350" />
+		<state id="s20_350_up" />
+	</variable>
+	<variable id="GV_FOOTPRINT" position="558 147 630 195" discrete="true">
+		<state id="s01_below_2" />
+		<state id="s02_2_3" />
+		<state id="s03_3_3" />
+		<state id="s04_3_3" />
+		<state id="s05_3_3" />
+		<state id="s06_3_3" />
+		<state id="s07_3_3" />
+		<state id="s08_3_4" />
+		<state id="s09_4_4" />
+		<state id="s10_4_4" />
+		<state id="s11_4_4" />
+		<state id="s12_4_4" />
+		<state id="s13_4_4" />
+		<state id="s14_4_5" />
+		<state id="s15_5_5" />
+		<state id="s16_5_5" />
+		<state id="s17_5_5" />
+		<state id="s18_5_5" />
+		<state id="s19_5_5" />
+		<state id="s20_5_5" />
+		<state id="s21_5_6" />
+		<state id="s22_6_6" />
+		<state id="s23_6_6" />
+		<state id="s24_6_6" />
+		<state id="s25_6_6" />
+		<state id="s26_6_6" />
+		<state id="s27_6_6" />
+		<state id="s28_6_7" />
+		<state id="s29_7_7" />
+		<state id="s30_7_7" />
+		<state id="s31_7_7" />
+		<state id="s32_7_7" />
+		<state id="s33_7_up" />
+	</variable>
+	<directed from="OA_MAIS" to="x__GV_CURBWGT" />
+	<directed from="OA_MAIS" to="GV_DVLAT" />
+	<directed from="OA_MAIS" to="GV_DVLONG" />
+	<directed from="OA_MAIS" to="GV_ENERGY" />
+	<directed from="OA_MAIS" to="GV_LANES" />
+	<directed from="OA_MAIS" to="GV_MODELYR" />
+	<directed from="OA_MAIS" to="GV_OTVEHWGT" />
+	<directed from="OA_MAIS" to="GV_SPLIMIT" />
+	<directed from="OA_MAIS" to="GV_WGTCDTR" />
+	<directed from="OA_MAIS" to="OA_AGE" />
+	<directed from="OA_MAIS" to="OA_BAGDEPLY" />
+	<directed from="OA_MAIS" to="OA_HEIGHT" />
+	<directed from="OA_MAIS" to="OA_MANUSE" />
+	<directed from="OA_MAIS" to="OA_SEX" />
+	<directed from="OA_MAIS" to="OA_WEIGHT" />
+	<directed from="OA_MAIS" to="VE_GAD1" />
+	<directed from="OA_MAIS" to="VE_ORIGAVTW" />
+	<directed from="OA_MAIS" to="VE_WHEELBAS" />
+	<directed from="OA_MAIS" to="VE_PDOF_TR" />
+	<directed from="GV_FOOTPRINT" to="OA_MAIS" />
+</pattern>

@@ -3,13 +3,13 @@
 <smile version="1.0" id="Unnamed" numsamples="10000" discsamples="10000">
 	<nodes>
 		<cpt id="OA_MAIS">
-			<state id="State0" />
-			<state id="State1" />
-			<state id="State2" />
-			<state id="State3" />
-			<state id="State4" />
-			<state id="State5" />
-			<state id="State6" />
+			<state id="s1_below_0" />
+			<state id="s2_0_1" />
+			<state id="s3_1_2" />
+			<state id="s4_2_3" />
+			<state id="s5_3_4" />
+			<state id="s6_4_5" />
+			<state id="s7_5_up" />
 			<probabilities>0.33908222624455 0.4925605910544951 0.08591464317020139 0.05316302949580502 0.0158692212242296 0.01037077513290758 0.003039513677811551</probabilities>
 		</cpt>
 		<cpt id="x__GV_CURBWGT">
@@ -493,156 +493,156 @@
 	<extensions>
 		<genie version="1.0" app="GeNIe 2.3.3828.0 ACADEMIC" name="2 - discretised" faultnameformat="nodestate">
 			<node id="x__GV_CURBWGT">
-				<name>﻿GV_CURBWGT</name>
+				<name>GV_CURBWGT</name>
 				<interior color="e5f6f7" />
 				<outline color="000080" />
 				<font color="000000" name="Arial" size="8" />
-				<position>572 202 644 250</position>
+				<position>721 311 793 359</position>
 			</node>
 			<node id="GV_DVLAT">
 				<name>GV_DVLAT</name>
 				<interior color="e5f6f7" />
 				<outline color="000080" />
 				<font color="000000" name="Arial" size="8" />
-				<position>558 257 630 305</position>
+				<position>707 366 779 414</position>
 			</node>
 			<node id="GV_DVLONG">
 				<name>GV_DVLONG</name>
 				<interior color="e5f6f7" />
 				<outline color="000080" />
 				<font color="000000" name="Arial" size="8" />
-				<position>520 307 592 355</position>
+				<position>669 416 741 464</position>
 			</node>
 			<node id="GV_ENERGY">
 				<name>GV_ENERGY</name>
 				<interior color="e5f6f7" />
 				<outline color="000080" />
 				<font color="000000" name="Arial" size="8" />
-				<position>461 346 533 394</position>
+				<position>610 455 682 503</position>
 			</node>
 			<node id="GV_LANES">
 				<name>GV_LANES</name>
 				<interior color="e5f6f7" />
 				<outline color="000080" />
 				<font color="000000" name="Arial" size="8" />
-				<position>386 371 458 419</position>
+				<position>535 480 607 528</position>
 			</node>
 			<node id="GV_MODELYR">
 				<name>GV_MODELYR</name>
 				<interior color="e5f6f7" />
 				<outline color="000080" />
 				<font color="000000" name="Arial" size="8" />
-				<position>304 380 376 428</position>
+				<position>453 489 525 537</position>
 			</node>
 			<node id="GV_OTVEHWGT">
 				<name>GV_OTVEHWGT</name>
 				<interior color="e5f6f7" />
 				<outline color="000080" />
 				<font color="000000" name="Arial" size="8" />
-				<position>222 371 294 419</position>
+				<position>371 480 443 528</position>
 			</node>
 			<node id="GV_SPLIMIT">
 				<name>GV_SPLIMIT</name>
 				<interior color="e5f6f7" />
 				<outline color="000080" />
 				<font color="000000" name="Arial" size="8" />
-				<position>147 346 219 394</position>
+				<position>296 455 368 503</position>
 			</node>
 			<node id="GV_WGTCDTR">
 				<name>GV_WGTCDTR</name>
 				<interior color="e5f6f7" />
 				<outline color="000080" />
 				<font color="000000" name="Arial" size="8" />
-				<position>88 307 160 355</position>
+				<position>237 416 309 464</position>
 			</node>
 			<node id="OA_AGE">
 				<name>OA_AGE</name>
 				<interior color="e5f6f7" />
 				<outline color="000080" />
 				<font color="000000" name="Arial" size="8" />
-				<position>50 257 122 305</position>
+				<position>199 366 271 414</position>
 			</node>
 			<node id="OA_BAGDEPLY">
 				<name>OA_BAGDEPLY</name>
 				<interior color="e5f6f7" />
 				<outline color="000080" />
 				<font color="000000" name="Arial" size="8" />
-				<position>36 202 108 250</position>
+				<position>185 311 257 359</position>
 			</node>
 			<node id="OA_HEIGHT">
 				<name>OA_HEIGHT</name>
 				<interior color="e5f6f7" />
 				<outline color="000080" />
 				<font color="000000" name="Arial" size="8" />
-				<position>50 147 122 195</position>
+				<position>199 256 271 304</position>
 			</node>
 			<node id="OA_MAIS">
 				<name>OA_MAIS</name>
 				<interior color="ffff80" />
 				<outline color="000080" />
 				<font color="000000" name="Arial" size="8" />
-				<position>303 203 375 251</position>
+				<position>453 311 525 359</position>
 			</node>
 			<node id="OA_MANUSE">
 				<name>OA_MANUSE</name>
 				<interior color="e5f6f7" />
 				<outline color="000080" />
 				<font color="000000" name="Arial" size="8" />
-				<position>88 97 160 145</position>
+				<position>237 206 309 254</position>
 			</node>
 			<node id="OA_SEX">
 				<name>OA_SEX</name>
 				<interior color="e5f6f7" />
 				<outline color="000080" />
 				<font color="000000" name="Arial" size="8" />
-				<position>147 58 219 106</position>
+				<position>296 167 368 215</position>
 			</node>
 			<node id="OA_WEIGHT">
 				<name>OA_WEIGHT</name>
 				<interior color="e5f6f7" />
 				<outline color="000080" />
 				<font color="000000" name="Arial" size="8" />
-				<position>222 33 294 81</position>
+				<position>371 142 443 190</position>
 			</node>
 			<node id="VE_GAD1">
 				<name>VE_GAD1</name>
 				<interior color="e5f6f7" />
 				<outline color="000080" />
 				<font color="000000" name="Arial" size="8" />
-				<position>304 24 376 72</position>
+				<position>453 133 525 181</position>
 			</node>
 			<node id="VE_ORIGAVTW">
 				<name>VE_ORIGAVTW</name>
 				<interior color="e5f6f7" />
 				<outline color="000080" />
 				<font color="000000" name="Arial" size="8" />
-				<position>386 33 458 81</position>
+				<position>535 142 607 190</position>
 			</node>
 			<node id="VE_WHEELBAS">
 				<name>VE_WHEELBAS</name>
 				<interior color="e5f6f7" />
 				<outline color="000080" />
 				<font color="000000" name="Arial" size="8" />
-				<position>461 58 533 106</position>
+				<position>610 167 682 215</position>
 			</node>
 			<node id="VE_PDOF_TR">
 				<name>VE_PDOF_TR</name>
 				<interior color="e5f6f7" />
 				<outline color="000080" />
 				<font color="000000" name="Arial" size="8" />
-				<position>520 97 592 145</position>
+				<position>669 206 741 254</position>
 			</node>
 			<node id="GV_FOOTPRINT">
 				<name>GV_FOOTPRINT</name>
 				<interior color="e5f6f7" />
 				<outline color="000080" />
 				<font color="000000" name="Arial" size="8" />
-				<position>558 147 630 195</position>
+				<position>707 256 779 304</position>
 			</node>
 			<textbox>
-				<caption>Input file: 2 - discretised\nData rows: 12548\nElapsed time: 0.688s\n\nLearning algorithm: Naive Bayes\nAlgorithm parameters:\nClass variable: OA_MAIS\n\nEM Log Likelihood: -487194</caption>
+				<caption>Input file: 2 - discretised\nData rows: 12548\nElapsed time: 0.703s\n\nLearning algorithm: Naive Bayes\nAlgorithm parameters:\nClass variable: OA_MAIS\n\nEM Log Likelihood: -487194</caption>
 				<font color="000000" name="Arial" size="8" />
-				<position>10 448 165 574</position>
+				<position>7 273 162 399</position>
 			</textbox>
 		</genie>
 	</extensions>
