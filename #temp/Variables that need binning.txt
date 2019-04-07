@@ -1,0 +1,21 @@
+Selected algorithm doesn't support continuous data columns:
+  d_
+  GV_CURBWGT
+  GV_DVLAT
+  GV_DVLONG
+  GV_ENERGY
+  GV_OTVEHWGT
+  OA_AGE
+  OA_HEIGHT
+  OA_WEIGHT
+  VE_ORIGAVTW
+  VE_WHEELBAS
+  VE_PDOF_TR
+  GV_FOOTPRINT
+  
+  Can't start learning due to problems with data.
+Selected algorithm doesn't support constants in:
+  GV_MODELYR_imp
+  GV_WGTCDTR_imp
+  OA_BAGDEPLY_imp
+  OA_MAIS_imp
