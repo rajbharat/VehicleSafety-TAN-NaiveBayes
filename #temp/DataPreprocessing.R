@@ -4,7 +4,7 @@ library(mice)
 library(ggplot2)
 
 
-setwd("~/GITHUB/datascience-NUS/NaiveBayes/00 - Data")
+setwd("~/GITHUB/datascience-NUS/NaiveBayes/#temp")
 #replace blank with NA
 vehicle_safety = read.csv("vehicle_safety_NASS2010_2000_2012.csv", header=T, na.strings=c("","NA"))
 
@@ -15,12 +15,12 @@ summary(vehicle_safety)
 vehicle_safety_Clean <- vehicle_safety[!(is.na(vehicle_safety$OA_MAIS) | vehicle_safety$OA_MAIS == ""), ]
 summary(vehicle_safety_Clean)
 
-data(vehicle_safety_Clean)
-vehicle_safety_KNN <- kNN(vehicle_safety_Clean)
-write.csv(vehicle_safety_KNN, file = "knn_impute_vehicle_safety_NASS2010_2000_2012.csv")
+# data(vehicle_safety_Clean)
+# vehicle_safety_KNN <- kNN(vehicle_safety_Clean)
+# write.csv(vehicle_safety_KNN, file = "knn_impute_vehicle_safety_NASS2010_2000_2012.csv")
 
 
-vehicle_safety_nummeric <- subset(vehicle_safety_Clean, select = -c(OA_BAGDEPLY,OA_SEX,OA_MANUSE,GV_WGTCDTR,VE_GAD1))
+vehicle_safety_nummeric <- subset(vehicle_safety_Clean, select = -c(OA_MANUSE,VE_GAD1))
 summary(vehicle_safety_Clean)
 write.csv(vehicle_safety_Clean,"vehicle_safety_nummeric.csv")
 
