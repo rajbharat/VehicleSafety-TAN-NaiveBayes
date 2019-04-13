@@ -8,7 +8,7 @@
 			<state id="s3_3_4" />
 			<state id="s4_4_5" />
 			<state id="s5_5_up" />
-			<probabilities>0.840095813372214 0.1284732347427619 0.01568423245157258 0.01131014372005832 0.004436575713393042</probabilities>
+			<probabilities>0.2 0.2 0.2 0.2 0.2</probabilities>
 		</cpt>
 		<cpt id="GV_ENERGY">
 			<state id="s1_below_1607" />
@@ -194,138 +194,157 @@
 				<interior color="e5f6f7" />
 				<outline color="000080" />
 				<font color="000000" name="Arial" size="8" />
-				<position>518 182 590 230</position>
+				<position>604 708 676 756</position>
+				<barchart active="true" width="128" height="108" />
 			</node>
 			<node id="GV_DVLAT">
 				<name>GV_DVLAT</name>
 				<interior color="e5f6f7" />
 				<outline color="000080" />
 				<font color="000000" name="Arial" size="8" />
-				<position>503 236 575 284</position>
+				<position>1049 514 1121 562</position>
+				<barchart active="true" width="128" height="144" />
 			</node>
 			<node id="GV_DVLONG">
 				<name>GV_DVLONG</name>
 				<interior color="e5f6f7" />
 				<outline color="000080" />
 				<font color="000000" name="Arial" size="8" />
-				<position>461 285 533 333</position>
+				<position>830 634 902 682</position>
+				<barchart active="true" width="128" height="144" />
 			</node>
 			<node id="GV_ENERGY">
 				<name>GV_ENERGY</name>
 				<interior color="e5f6f7" />
 				<outline color="000080" />
 				<font color="000000" name="Arial" size="8" />
-				<position>397 321 469 369</position>
+				<position>915 367 987 415</position>
+				<barchart active="true" width="171" height="108" />
 			</node>
 			<node id="GV_LANES">
 				<name>GV_LANES</name>
 				<interior color="e5f6f7" />
 				<outline color="000080" />
 				<font color="000000" name="Arial" size="8" />
-				<position>318 340 390 388</position>
+				<position>291 54 363 102</position>
+				<barchart active="true" width="128" height="144" />
 			</node>
 			<node id="GV_MODELYR">
 				<name>GV_MODELYR</name>
 				<interior color="e5f6f7" />
 				<outline color="000080" />
 				<font color="000000" name="Arial" size="8" />
-				<position>236 340 308 388</position>
+				<position>201 668 273 716</position>
+				<barchart active="true" width="128" height="108" />
 			</node>
 			<node id="GV_OTVEHWGT">
 				<name>GV_OTVEHWGT</name>
 				<interior color="e5f6f7" />
 				<outline color="000080" />
 				<font color="000000" name="Arial" size="8" />
-				<position>157 321 229 369</position>
+				<position>45 564 117 612</position>
+				<barchart active="true" width="128" height="144" />
 			</node>
 			<node id="GV_SPLIMIT">
 				<name>GV_SPLIMIT</name>
 				<interior color="e5f6f7" />
 				<outline color="000080" />
 				<font color="000000" name="Arial" size="8" />
-				<position>93 285 165 333</position>
+				<position>492 53 564 101</position>
+				<barchart active="true" width="128" height="144" />
 			</node>
 			<node id="GV_WGTCDTR">
 				<name>GV_WGTCDTR</name>
 				<interior color="e5f6f7" />
 				<outline color="000080" />
 				<font color="000000" name="Arial" size="8" />
-				<position>51 236 123 284</position>
+				<position>403 610 475 658</position>
+				<barchart active="true" width="128" height="72" />
 			</node>
 			<node id="OA_AGE">
 				<name>OA_AGE</name>
 				<interior color="e5f6f7" />
 				<outline color="000080" />
 				<font color="000000" name="Arial" size="8" />
-				<position>36 182 108 230</position>
+				<position>119 368 191 416</position>
+				<barchart active="true" width="128" height="144" />
 			</node>
 			<node id="OA_BAGDEPLY">
 				<name>OA_BAGDEPLY</name>
 				<interior color="e5f6f7" />
 				<outline color="000080" />
 				<font color="000000" name="Arial" size="8" />
-				<position>51 128 123 176</position>
+				<position>761 12 833 60</position>
+				<barchart active="true" width="128" height="64" />
 			</node>
 			<node id="OA_HEIGHT">
 				<name>OA_HEIGHT</name>
 				<interior color="e5f6f7" />
 				<outline color="000080" />
 				<font color="000000" name="Arial" size="8" />
-				<position>93 79 165 127</position>
+				<position>281 204 353 252</position>
+				<barchart active="true" width="128" height="144" />
 			</node>
 			<node id="OA_MAIS">
 				<name>OA_MAIS</name>
 				<interior color="ffff80" />
 				<outline color="000080" />
 				<font color="000000" name="Arial" size="8" />
-				<position>277 182 349 230</position>
+				<position>490 347 562 395</position>
+				<barchart active="true" width="128" height="108" />
 			</node>
 			<node id="OA_SEX">
 				<name>OA_SEX</name>
 				<interior color="e5f6f7" />
 				<outline color="000080" />
 				<font color="000000" name="Arial" size="8" />
-				<position>157 43 229 91</position>
+				<position>554 194 626 242</position>
+				<barchart active="true" width="128" height="64" />
 			</node>
 			<node id="OA_WEIGHT">
 				<name>OA_WEIGHT</name>
 				<interior color="e5f6f7" />
 				<outline color="000080" />
 				<font color="000000" name="Arial" size="8" />
-				<position>236 24 308 72</position>
+				<position>61 187 133 235</position>
+				<barchart active="true" width="128" height="144" />
 			</node>
 			<node id="VE_ORIGAVTW">
 				<name>VE_ORIGAVTW</name>
 				<interior color="e5f6f7" />
 				<outline color="000080" />
 				<font color="000000" name="Arial" size="8" />
-				<position>318 24 390 72</position>
+				<position>287 443 359 491</position>
+				<barchart active="true" width="128" height="126" />
 			</node>
 			<node id="VE_WHEELBAS">
 				<name>VE_WHEELBAS</name>
 				<interior color="e5f6f7" />
 				<outline color="000080" />
 				<font color="000000" name="Arial" size="8" />
-				<position>397 43 469 91</position>
+				<position>747 196 819 244</position>
+				<barchart active="true" width="128" height="144" />
 			</node>
 			<node id="VE_PDOF_TR">
 				<name>VE_PDOF_TR</name>
 				<interior color="e5f6f7" />
 				<outline color="000080" />
 				<font color="000000" name="Arial" size="8" />
-				<position>461 79 533 127</position>
+				<position>1085 181 1157 229</position>
+				<barchart active="true" width="128" height="126" />
 			</node>
 			<node id="GV_FOOTPRINT">
 				<name>GV_FOOTPRINT</name>
 				<interior color="e5f6f7" />
 				<outline color="000080" />
 				<font color="000000" name="Arial" size="8" />
-				<position>503 128 575 176</position>
+				<position>664 391 736 439</position>
+				<barchart active="true" width="128" height="144" />
 			</node>
 			<textbox>
 				<caption>Input file: vehicle_safety_final.gdat\nData rows: 19203\nElapsed time: 6.312s\n\nLearning algorithm: Tree Augmented Naive Bayes\nAlgorithm parameters:\nClass variable: OA_MAIS\nSeed: 0\nMax search time: 0\n\nEM Log Likelihood: -282629</caption>
 				<font color="000000" name="Arial" size="8" />
-				<position>10 408 247 562</position>
+				<position>1101 739 1338 893</position>
 			</textbox>
 		</genie>
 	</extensions>
